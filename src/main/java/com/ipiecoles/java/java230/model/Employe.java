@@ -12,7 +12,7 @@ import java.util.Objects;
 
 
 public abstract class Employe {
-	@Id	@GeneratedValue (strategy = GenerationType.IDENTITY)
+	@Id	@GeneratedValue (strategy = GenerationType.AUTO)
 	private Long id;
 
 	private String nom;
